@@ -1,0 +1,25 @@
+body{
+  margin-left: 0;
+}
+
+img{
+width: 100%;
+display: block;
+}
+
+.collage img {
+  position: absolute;
+}
+
+#baggie{
+  width:300px;
+  top: 30px;
+  left: 60px;
+}
+
+#manuel{
+  width:400px;
+  top:90vh;
+  right:100px;
+  z-index: -1;
+}
