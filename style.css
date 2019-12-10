@@ -1,9 +1,11 @@
 body{
   margin-left: 0;
+  font-family: 'Spectral', serif;
+
 }
 
 img{
-width: 100%;
+max-width: 100%;
 display: block;
 }
 
@@ -11,15 +13,85 @@ display: block;
   position: absolute;
 }
 
+ul{
+  position: fixed;
+  right:10px;
+  top:0;
+  z-index:1;
+  list-style: none;
+  font-size: 25px;
+  text-align:right;
+}
+
+
+
 #baggie{
-  width:300px;
-  top: 30px;
-  left: 60px;
+  width:600px;
+  top: -10px;
+  left: -60px;
 }
 
 #manuel{
   width:400px;
-  top:90vh;
+  top:70vh;
   right:100px;
   z-index: -1;
+}
+
+#bookback{
+  width: 600px;
+  top:200vh;
+  left:800px;
+}
+
+#nested-posters{
+  width:1000px;
+  top:100vh;
+  right:400px
+}
+
+#bed-book{
+  width:700px;
+  top:180vh;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100vw; /* Full width */
+  height: 100vh; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+
+
+}
+
+.modal img {
+  position: relative;
+  width: 400px;
+  display: inline;
+}
+
+.image-grid {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.image-grid img {
+  width:33%;
 }
