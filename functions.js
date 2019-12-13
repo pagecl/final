@@ -9,12 +9,19 @@ baggie.onclick = function() {
   modal.style.display = "block";
 }
 
+
 var modal2 = document.getElementById("modal2");
 var manuel = document.getElementById("manuel");
 manuel.onclick = function() {
   modal2.style.display = "block";
 }
 
+
+var modal3 = document.getElementById("modal3");
+var bookback = document.getElementById("bookback");
+bookback.onclick = function() {
+  modal3.style.display = "block";
+}
 
 
 window.onclick = function(event) {
@@ -24,5 +31,7 @@ window.onclick = function(event) {
     modal2.style.display = "none";
   }else if (event.target == modal3) {
     modal3.style.display = "none";
+  }else if (event.target == modal4) {
+    modal4.style.display = "none";
   }
 }

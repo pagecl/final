@@ -1,0 +1,31 @@
+body{
+  background-image: url("cathyimpala.jpeg");
+  background-color: rgb(32, 155, 180);
+}
+
+p{
+  font-size: 9vh;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  /* transition: opacity 2s; */
+
+}
+
+ img{
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity:0;
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  /* padding-top: 50%; */
+  transition: opacity 2s;
+}
+
+.hover-name:hover img{
+  opacity: 1;
+}
